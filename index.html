@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Li</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" sizes="32x32" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="title">
+                <img class="icon" src="images/icon.png" />
+                <h1 class="name">Crystal Li</h1>
+            </div>
+            <nav class="nav-items">
+                <a class="nav-item" href="#home">HOME</a>
+                <a class="nav-item" href="#about">ABOUT</a>
+                <a class="nav-item" href="#contact">CONTACT</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="images/self.png" alt="Crystal Li">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello!</h1>
+                <p>I'm Crystal. Welcome to my Website!</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-body">
+                <img class="about-img" src="images/about-self.jpg" />
+                <div class="about-text">
+                    <h1>ABOUT ME</h1>
+                    <p>I'm currently a <span>third-year Health Sciences student</span> at McMaster University with a passion for exploring the intersection of health, research, and innovation. I'm driven by curiosity and a desire to make a meaningful impact in the lives of others. Outside of academics, I enjoy baking, singing, and crocheting!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h1>CONTACT</h1>
+            <div class="contact-body">
+                <div class="contact-text">
+                    <p>If you'd like to get in touch, feel free to drop me a message or send an email directly to <a href="mailto:crystal.pt.li@gmail.com">crystal.pt.li@gmail.com</a>.</p>
+                    <p>Looking forward to connecting with you!</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send (work in progress)</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
